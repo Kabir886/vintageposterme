@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Large generated outputs (keep only a few hero examples manually)
+outputs/*.jpg
+outputs/*.png
+!outputs/result8.jpg
+
+# IDE
+.vscode/
+.idea/
